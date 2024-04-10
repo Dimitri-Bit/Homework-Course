@@ -1,0 +1,126 @@
+{
+    "message": "Articles successfully fetched",
+    "status": 200,
+    "data": {
+      "number_of_articles": 8,
+      "articles": [
+        {
+          "title": "Apple is Listening",
+          "author": "Marco Arment",
+          "description": "The trash can 2013 Mac Pro addressed only a fraction of the needs solved by the previous cheese grater towers, aged quickly without critical upgrade paths, and suffered from high GPU-failure rates from its cooling solution — all because its design prioritized size and appearance over performance and versatility in the one Mac model that should never make that tradeoff.",
+          "category": "News",
+          "views": 10,
+          "comments": [
+            {
+              "title": "Nice",
+              "author": "anonim",
+              "description": "Nice article!"
+            },
+            {
+              "title": "hi",
+              "author": "Joe",
+              "description": "Hi! Write more articles like this."
+            }
+          ]
+        },
+        {
+          "title": "Apple is Listening 2",
+          "author": "Marco Arment",
+          "description": "Apple is Listening 2. The trash can 2013 Mac Pro addressed only a fraction of the needs solved by the previous cheese grater towers, aged quickly without critical upgrade paths, and suffered from high GPU-failure rates from its cooling solution — all because its design prioritized size and appearance over performance and versatility in the one Mac model that should never make that tradeoff.",
+          "category": "News",
+          "views": 12,
+          "comments": [
+            {
+              "title": "Nice",
+              "author": "anonim",
+              "description": "Nice article!"
+            }
+          ]
+        },
+        {
+          "title": "Innovations in Renewable Energy",
+          "author": "Dr. Emma Green",
+          "description": "Exploring the latest advancements in solar and wind energy, this article highlights the technologies shaping the future of sustainable power.",
+          "category": "Science",
+          "views": 35,
+          "comments": [
+            {
+              "title": "Informative",
+              "author": "SolarFan",
+              "description": "Really opened my eyes to the possibilities of green energy."
+            }
+          ]
+        },
+        {
+          "title": "The Renaissance of Classical Music",
+          "author": "Lucas B. Schmidt",
+          "description": "A deep dive into how modern composers are blending classical influences with contemporary sounds to revitalize an age-old genre.",
+          "category": "Culture",
+          "views": 20,
+          "comments": [
+            {
+              "title": "Bravo!",
+              "author": "PianoLover",
+              "description": "Classical music is timeless. Great read!"
+            }
+          ]
+        },
+        {
+          "title": "AI and Ethics: Navigating the Future",
+          "author": "Samantha Zhou",
+          "description": "An exploration of the ethical considerations that come with the advancement of AI technology and its impact on society.",
+          "category": "Technology",
+          "views": 50,
+          "comments": [
+            {
+              "title": "Thought-provoking",
+              "author": "TechEthics",
+              "description": "We need more conversations about this!"
+            }
+          ]
+        },
+        {
+          "title": "The World's Most Influential Cities",
+          "author": "Michael Johnson",
+          "description": "Ranking the globe's cities not just by economic power, but cultural influence, technological innovation, and political clout.",
+          "category": "Travel",
+          "views": 40,
+          "comments": [
+            {
+              "title": "Eye-opening",
+              "author": "WorldTraveler",
+              "description": "Makes me want to visit every one of them!"
+            }
+          ]
+        },
+        {
+          "title": "Breaking Down the Latest Federal Budget",
+          "author": "Hannah Lee",
+          "description": "A detailed analysis of the federal budget and what it means for the average citizen.",
+          "category": "Politics",
+          "views": 30,
+          "comments": [
+            {
+              "title": "Very Insightful",
+              "author": "PolicyGeek",
+              "description": "Appreciate the breakdown. Makes complex policies accessible."
+            }
+          ]
+        },
+        {
+          "title": "The Evolution of Video Games",
+          "author": "Alex Rivera",
+          "description": "From pixelated beginnings to virtual reality, this article examines how video games have changed over the decades.",
+          "category": "Entertainment",
+          "views": 55,
+          "comments": [
+            {
+              "title": "Nostalgic!",
+              "author": "GamerDad",
+              "description": "Reminds me of my childhood. The industry has come so far."
+            }
+          ]
+        }
+      ]
+    }
+  }
