@@ -76,6 +76,24 @@ def find_articles_from_author(json_content, author):
 
     return article_list
 
+def write_article_to_csv(articles):
+    fields = ['title', 'author', 'description', 'category', 'views']
+    dic_list = []
+
+    for article in articles:
+        dic = {'title': article['title'], 'author': article['author'], 'description': article['description'], 'category': article['category'], 'views': article['views']}
+        dic_list.append(dic)
+
+    with open('file.csv', 'w') as csv_file:
+        writer = csv.DictWriter(csv_file, fieldnames=fields)
+        writer.writeheader()
+        writer.writerows(dic_list)
+
+def write_article_to_json(articles):
+    for article in articles:
+        with open("file2.json", "a") as json_file:
+            json_file.write(json.dumps(article))
+
 
 json_content = json.loads(read_json_file('file.json'))
 
@@ -101,3 +119,7 @@ print(f"Articles from specific author:\n {json.dumps(articles_from_author, inden
 
 sorted_articles_from_author = sorted(articles_from_author, key=lambda d: len(d['comments']))
 print(f"Sorted articles by number of comments {json.dumps(sorted_articles_from_author, indent=4)}")
+
+
+write_article_to_csv(sorted_articles_from_author)
+write_article_to_json(sorted_articles_from_author)
