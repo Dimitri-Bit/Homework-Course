@@ -24,13 +24,13 @@ class database_manager:
         else:
             return False
 
-    def get_user(self, email):
-        query = f"SELECT * from users where email = '{email}'"
+    def get_user(self, username):
+        query = f"SELECT * from users where username = '{username}'"
         rows = self.cursor.execute(query).fetchall()
         return rows
         
-    def login_user(self, email, password):
-        user = self.get_user(email)
+    def login_user(self, username, password):
+        user = self.get_user(username)
 
         if user:          
             if self.verify_password(user[0][3], password):
@@ -56,5 +56,3 @@ class database_manager:
         rows = self.cursor.fetchall()
         for row in rows:
             print(row)
-
-database_m = database_manager()
