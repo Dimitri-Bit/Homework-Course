@@ -6,7 +6,7 @@ SALT = "dwaaaaawdaww"
 
 class database_manager:
     def __init__(self):
-        self.connection = sqlite3.connect(DATABASE)
+        self.connection = sqlite3.connect(DATABASE, check_same_thread=False)
         self.cursor = self.connection.cursor()
         self.init_tables()
 
